@@ -10,7 +10,7 @@ https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip
 
 Extract your downloaded files and then..
 Save your files in ./localdisk C/Program Files, copy and paste the files inside the folder.
-Both files exist in the programs File folder
+Both files exist in the programs File folder.
 Run the java application as admin
 
 
