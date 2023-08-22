@@ -27,9 +27,9 @@ select new
 #### Value and browse to the folder ./Local disk C/Program files/java/jdk11.
 Click on Jdk11 and press ok
 
-# Repeat the same for Maven
-# Variable name: MAVEN_HOME
-# Value,browse through .Local disk C/Program Files/Apache Maven
+#### Repeat the same for Maven
+#### Variable name: MAVEN_HOME
+#### Value,browse through .Local disk C/Program Files/Apache Maven
 Click on APache maven and click okay.
 
 Both variable should be seen under Sytem Variables.
