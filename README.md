@@ -1,4 +1,4 @@
-## My java and maven set up!
+## My Java and maven set up!
 
 Install java 11 using the link below
 https://www.oracle.com/java/technologies/downloads/#java11-windows
