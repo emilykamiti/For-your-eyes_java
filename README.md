@@ -1,10 +1,10 @@
-## My Java and maven set up!
+# My Java and maven set up!
 
 Install java 11 using the link below
 https://www.oracle.com/java/technologies/downloads/#java11-windows
 Recommendation: Download the compressed file
 
-## Proceed to :
+# Proceed to :
 Install maven using the link below
 https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip
 
@@ -14,7 +14,7 @@ Both files exist in the programs File folder
 Run the java application as admin
 
 
-## Setting up system environment vaiables
+# Setting up system environment vaiables
 Right click on this pc
 Click Properties
 Advanced System Settings
@@ -23,11 +23,11 @@ click environment Variables
 Create the Java variable through java home and maven through maven home.
 On the system variables section 
 select new
-# Variable name: JAVA_HOME
-# Value and browse to the folder ./Local disk C/Program files/java/jdk11.
+## Variable name: JAVA_HOME
+## Value and browse to the folder ./Local disk C/Program files/java/jdk11.
 Click on Jdk11 and press ok
 
-## Repeat the same for Maven
+# Repeat the same for Maven
 # Variable name: MAVEN_HOME
 # Value,browse through .Local disk C/Program Files/Apache Maven
 Click on APache maven and click okay.
