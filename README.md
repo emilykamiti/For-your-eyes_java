@@ -23,8 +23,8 @@ click environment Variables
 Create the Java variable through java home and maven through maven home.
 On the system variables section 
 select new
-## Variable name: JAVA_HOME
-## Value and browse to the folder ./Local disk C/Program files/java/jdk11.
+#### Variable name: JAVA_HOME
+#### Value and browse to the folder ./Local disk C/Program files/java/jdk11.
 Click on Jdk11 and press ok
 
 # Repeat the same for Maven
@@ -40,10 +40,10 @@ Do the same for Java and add %JAVA_HOME%\bin
 
 Click okay on all windows open to close them..
 
-## To command prompt
+#### To command prompt
 Type java
 
-# To Check for versions 
+#### To Check for versions 
 mvn -version
 java -version
 
