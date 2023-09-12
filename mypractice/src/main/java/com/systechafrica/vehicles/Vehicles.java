@@ -3,8 +3,8 @@ package com.systechafrica.vehicles;
 import java.util.Scanner;
 
 public class Vehicles {
-    Scanner s = new Scanner();
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
         Cars car1 = new Cars();
         Cars car2 = new Cars();
         Cars car3 = new Cars();
