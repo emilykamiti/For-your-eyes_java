@@ -23,15 +23,29 @@ public class LStrings {
 
     public void writeYourname(){
         System.out.println("Tell me about you: ");
-        String message = s.nextLine();
+        String message = s.nextLine(); // wait for input
         System.out.println("Your are awesome!");
+
+    }
+
+    public void enjoyTheStrings(){
+        System.out.print("Write your name: ");
+        String name = s.nextLine();
+        System.out.print("Where do you come from: ");
+        String place = s.nextLine();
+        System.out.print("How Old are you: ");
+        String age = s.nextLine();
+
+        System.out.println("Weldome with the responses, proceed to next level");
+
 
     }
     public static void main(String[] args) {
         LStrings app = new LStrings();
         //app.readingStrings();
         //app.joiningStrings();
-        app.writeYourname();
+        //app.writeYourname();
+        app.enjoyTheStrings();
 
     }
 
