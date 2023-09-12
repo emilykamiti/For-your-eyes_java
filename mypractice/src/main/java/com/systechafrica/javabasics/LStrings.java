@@ -36,7 +36,7 @@ public class LStrings {
         String place = s.nextLine();
         System.out.print("How Old are you: ");
         String age = s.nextLine();
-
+        System.out.println("Name: " + name + "Place: " + place + "Age" + age);
         System.out.println("Weldone with the responses, proceed to next level");
 
     }
@@ -48,7 +48,7 @@ public class LStrings {
         System.out.println("Would you like me to take you for lunch");
         String chance = s.nextLine();
 
-        System.out.println("My favourite food is, " + name);
+        System.out.println("My favourite food is, " + food);
         System.out.println("I last had my favorite food on " + day);
         System.out.println(chance + "I would love to");
 
