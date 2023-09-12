@@ -1,4 +1,4 @@
-package com.systechafrica.javabasics;
+package com.systechafrica.javabasics.strings;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class LStrings {
     public void writeYourname() {
         System.out.println("Tell me about you: ");
         String message = s.nextLine(); // wait for input
-        System.out.println("Your are awesome!");
+        System.out.println("I will!" + message);
 
     }
 
