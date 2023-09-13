@@ -39,12 +39,12 @@ public class UnderstandingVariables {
     }
 
     public void readingIntegers() {
-        //?Integer.valueof command
+        // ?Integer.valueof command
         String valueAsString = "42";
         int value1 = Integer.valueOf(valueAsString);
         System.out.println(value1);
 
-        //?you canconvert a String to an int using .ValueOf command.
+        // ?you canconvert a String to an int using .ValueOf command.
         System.out.println("write value");
         int value = Integer.valueOf(s.nextLine());
         System.out.println("Value: " + value);
@@ -53,22 +53,23 @@ public class UnderstandingVariables {
         int age = s.nextInt();
         System.out.println(" I am: " + age);
 
-
     }
 
-    public void readingDoubles(){
-        //?convert a String to double
+    public void readingDoubles() {
+        // ?convert a String to double
         String mydouble = "3.245";
-        double val = Double.valueOf(mydouble);
+        double val = Double.valueOf(mydouble); // if you want a prompt add #s.nextLine() in brackets intead of my double
         System.out.println(val);
 
     }
 
+    // !same for boolean
+
     public static void main(String[] args) {
         UnderstandingVariables uv = new UnderstandingVariables();
         // uv.variablesUnique();
-        //uv.namingvariables();
-        //uv.readingIntegers();
+        // uv.namingvariables();
+        // uv.readingIntegers();
         uv.readingDoubles();
     }
 }

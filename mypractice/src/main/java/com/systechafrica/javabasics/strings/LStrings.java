@@ -28,6 +28,29 @@ public class LStrings {
         System.out.println("I will!" + message);
 
     }
+    public void stringLength(){
+        String name = "wabusa";
+        int length = name.length();
+        System.out.println(length);
+    }
+    public void stringComparison(){
+        String str1 = "Hello";
+        String str2 = "Hello";
+        boolean isEqual = str1.equals(str2);
+
+        boolean isSameIgnoreCase = str1.equalsIgnoreCase(str2);
+        System.out.println(isSameIgnoreCase);
+
+
+    }
+
+    public void stringModification(){
+        String sentence = "Hello, world";
+        String uppercase = sentence.toUpperCase();
+
+        String replaced = sentence.replace("Hello", "Hi");
+        System.out.println(replaced);
+    }
 
     public void enjoyTheStrings(){
         System.out.print("Write your name: ");
@@ -62,7 +85,11 @@ public class LStrings {
         // app.joiningStrings();
         // app.writeYourname();
         //app.enjoyTheStrings();
-        app.complicatedTexts();
+        //app.complicatedTexts();
+        //app.stringLength();
+        //app.stringComparison();
+        app.stringModification();
+        
 
     }
 

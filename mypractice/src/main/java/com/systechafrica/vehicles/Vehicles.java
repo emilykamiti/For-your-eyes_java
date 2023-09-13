@@ -47,11 +47,72 @@ public class Vehicles {
 
         System.out.println("Which one is your favorute!");
         System.out.println("1. Bikes: ");
-        System.out.println("2. Cars: ");
+        System.out.println("2. Cars: "); 
         int option;
         System.out.println("Enter your option : ");
         option = s.nextInt();
 
+        if(option ==1){
+            System.out.println("We have five models");
+            System.out.println("1. Yamaha");
+            System.out.println("2. suzuki");
+            System.out.println("3. Santa Cruz");
+            System.out.println("4. Canyon");
+            System.out.println("5. Cannondale");
+            System.out.println("6. Specialized");
+        System.out.println("Enter your choice: ");
+        
+            int n;
+            n =s.nextInt();
+            if(n == 1){
+                System.out.println("The cost of Yamaha:" + b1.cost);
+            }
+
+            else if (n==2){
+                System.out.println("The cost of suzuki:" + b2.cost);
+            }
+            else if(n==3){
+                System.out.println("The cost of Santa Cruz: " + b3.cost);
+            }
+            else if (n==4){
+                System.out.println("The cost of Canyon: " + b4.cost);
+            } 
+            else if (n==5){
+                System.out.println("The cost of cannodale: " + b5.cost);
+
+            }
+            else if (n==6){
+                System.out.println("Specialized" + b6.cost);
+            }else{
+            System.out.println("Please enter a value from 1 to 6: ");
+            }
+        
+        }
+        else if (option ==2){
+            System.out.println(" we have 5 car five models");
+            System.out.println("1. Benz");
+            System.out.println("2. Lambogini");
+            System.out.println("3. Mitsubishu");
+            System.out.println("4. Ferrari");
+            System.out.println("5. Shevrolet");
+            System.out.println("Enter the car you want");
+
+        }
+        int n;
+        n = s.nextInt();
+        
+        if( n == 1){
+            System.out.println(" if car is Benz: " + car1.cost);
+            System.out.println(" if car is Lambogini: " + car2.cost);
+            System.out.println(" if car is Mitsubishi: " + car3.cost);
+            System.out.println(" if car is Ferrari: " + car4.cost);
+            System.out.println(" if car is Shevrolet: " + car5.cost);
+        }
+     else{
+        System.out.println(" Input number from 1 to 5: ");
+
+
     }
-    
+
+}
 }
