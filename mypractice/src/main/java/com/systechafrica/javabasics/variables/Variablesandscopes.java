@@ -1,6 +1,6 @@
 package com.systechafrica.javabasics.variables;
 
-public class Variablesandscpes {
+public class Variablesandscopes {
     public static void main(String[] args) {
         
     }
@@ -9,12 +9,15 @@ public class Variablesandscpes {
 
     }
     public void eatIfHungry(boolean hungry){
-        eat e = new eat();
         if(hungry){
             int bitesOfCheese =1;
         }
-        //bitesOfCheese goes out of scope here
-        System.out.println(bitesOfCheese);
+        //?bitesOfCheese goes out of scope here
+        //System.out.println(bitesOfCheese);
         System.out.println(hungry);
+        {
+            boolean teenyBit = true;
+            System.out.println(hungry);
+        }
     }
 }
