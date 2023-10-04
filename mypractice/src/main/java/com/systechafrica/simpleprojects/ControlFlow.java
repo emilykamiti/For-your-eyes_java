@@ -3,37 +3,41 @@ package com.systechafrica.simpleprojects;
 import java.util.Scanner;
 
 public class ControlFlow {
-    private static int marks;
     private static String grade;
 
     public static void main(String[] args) {
         ControlFlow cd = new ControlFlow();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
+        String[] name = new String[5];
+        int[] marks = new int[5];
 
-        System.out.println("Enter Marks: ");
-        int marks = scanner.nextInt();
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter student name: " + (i+1)); // Qn: Why for strings, name[i] prints null when placed where (i+1) is.
+            name[i] = scanner.nextLine();
 
-        // control flow
-        if (marks >= 90){
-            grade = "A";
+            System.out.println("Enter Marks: " + marks[i]);
+            marks[i] = scanner.nextInt();
+            scanner.nextLine();
+
         }
-        else if (marks >= 70 && marks < 90){
-            grade = "B";
-        }else if (marks >= 65 && marks < 70){
-            grade = "C";
-        }else if (marks >= 55 && marks < 65){
-            grade = "D";
-        }else{
-            grade = "F";
+        System.out.println("Student Grading:");
+        for (int i = 0; i < 5; i++) {
+
+            if (marks[i] >= 90) {
+                grade = "A";
+            } else if (marks[i] >= 70 && marks[i] < 90) {
+                grade = "B";
+            } else if (marks[i] >= 65 && marks[i] < 70) {
+                grade = "C";
+            } else if (marks[i] >= 55 && marks[i] < 65) {
+                grade = "D";
+            } else {
+                grade = "F";
+            }
+
+            System.out.println("Student: " + marks[i] + " " + name[i] + " " + " " + grade);
         }
-
-        System.out.println("Student: " + marks + " " + name + " " + " " + grade);
-
         scanner.close();
-
     }
-
 }
