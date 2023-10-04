@@ -6,7 +6,6 @@ public class ControlFlow {
     private static String grade;
 
     public static void main(String[] args) {
-        ControlFlow cd = new ControlFlow();
         Scanner scanner = new Scanner(System.in);
 
         String[] name = new String[5];
