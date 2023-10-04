@@ -12,7 +12,7 @@ public class ControlFlow {
         int[] marks = new int[5];
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Enter student name: " + (i+1)); // Qn: Why for strings, name[i] prints null when placed where (i+1) is.
+            System.out.println("Enter student name: " + (i+1)); //! Qn: Why for the String, name[i] prints null when placed where (i+1) is.
             name[i] = scanner.nextLine();
 
             System.out.println("Enter Marks: " + marks[i]);
